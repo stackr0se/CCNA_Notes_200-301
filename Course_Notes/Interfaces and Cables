@@ -1,0 +1,20 @@
+Ethernet 
+- Ethernet is a collection of network protocols/standards
+Why do we have standards/protocols?
+- To have a have a common standard for all vendors to follow 
+- Both in physical standards (like connectors and cables) and logical standards (like IP)
+
+Connections between devices in a network operate at a set speed 
+These speed are measured in bits per second (Kbps, Mbps, Gbps, ect), not bytes per second
+However data on a hard drive is measured in bytes per second 
+A bit is a value represented by either a 0 or a 1
+A byte is a series of 8 bits (of 0 or 1)			
+- 1 kilobit (Kb) = 1,000 bits
+- 1 megabit (Mb) = 1,000,000 bits
+- 1 gigabit (Gb) = 1,000,,000,000 bits
+- 1 terabit (Tb) = 1,000,000,000,000 bits
+
+Ethernet Standards
+- Defined in the IEEE 802.3 standard in 1983
+- IEEE = Institute of Electrical and Electronics Engineers
+Ethernet Standards (copper)
