@@ -5,9 +5,11 @@ Protocols live (mostly) at one layer
 - Together they form a stack of protocols that work as a team (the network stack)
 - (A protocol is a set of rules that define how data should be communicated between devices over a network.)
 Today, almost all real networks use TC/IP model.
-![[../Pasted image 20260619094156.png]]
+<img width="661" height="404" alt="image" src="https://github.com/user-attachments/assets/103fab1e-baa0-459e-9742-2a082de44327" />
+
 A port is just a number used to identify a process running on a host.
-![[../Pasted image 20260619095602.png]]
+<img width="1313" height="288" alt="image" src="https://github.com/user-attachments/assets/bbf67b2d-1d5d-46c5-b742-2e0fe46a0c20" />
+
 
 Layer 1: The Physical layer
 - Sends and receives bits as electrical, optic, or radio signals over the medium
@@ -47,8 +49,10 @@ Protocols at this layer define message formats and rules for specific tasks, suc
 - Transferring files (FTP, TFTP)
 - Sending/receiving email (SMTP, POP3, IMAP)
 Encapsulation Process:
-![[../Pasted image 20260619115017.png]]
-Decapsulation Process: ![[../Pasted image 20260619115302.png]]
+<img width="1326" height="743" alt="image" src="https://github.com/user-attachments/assets/eefd6120-5619-4a6f-af2e-146345de924e" />
+
+Decapsulation Process: <img width="1326" height="743" alt="image" src="https://github.com/user-attachments/assets/243d7aa4-a5f2-4a25-b797-162fb64ce510" />
+
 In encapsulation, the sending host adds headers, and a trailer to the data to prepare it for transmission over the physical medium.
 In decapsulation, the receiving host removes the headers and trailer layer by layer until it gets to the data inside.
 
