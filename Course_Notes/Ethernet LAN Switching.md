@@ -82,3 +82,18 @@ Mac Addresses
 # Hexadecimal
 <img width="827" height="488" alt="image" src="https://github.com/user-attachments/assets/f391be7c-04f0-4bc1-a3cc-f637743ecb84" />
 
+# MAC Address Table
+
+Unicast Frame:
+- A frame destined for a single target
+
+Each Switch stores a Dynamic / Dynamically learned MAC address
+Every switch will keep a MAC address table like this, and they fill the MAC address table dynamically by looking at the source MAC addresso of frames it receives.
+<img width="368" height="290" alt="image" src="https://github.com/user-attachments/assets/8efbe884-9b11-43fa-a363-4d25c4ade375" />
+
+When a Switch doesn't know the DESTINATION MAC ADDRESS of a frame (UNKNOWN UNICAST FRAME), it is forced to FLOOD the frame - Forward the frame out of ALL it's interfaces, except the one it received the packet from.  
+
+When a KNOWN Unicast Frame is known (MAC Address is recognized by the entry in the MAC ADDRESS TABLE), the frame is FORWARDED like normal.
+<img width="1298" height="712" alt="image" src="https://github.com/user-attachments/assets/611ff33d-6846-4546-bdb3-63193bac66eb" />
+
+Dyanmic MAC addresses are removed from The MAC address table after 5 minutes of inactivity
